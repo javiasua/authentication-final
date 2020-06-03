@@ -24,14 +24,11 @@ const app = express();
 console.log('justo-changes...')
 // Express View engine setup
 
-<<<<<<< HEAD
-app.set('views', path.join(__dirname, 'views')); //test de merge
-app.set('view engine', 'hbs');
-=======
+
 app.set('views', path.join(__dirname, 'views'));
 //app.set('view engine', 'hbs');
 console.log('otro console javier')
->>>>>>> origin/javier-changes
+console.log('segundo console nuevo merge')
 app.use(express.static(path.join(__dirname, 'public')));
 
 // setting up the middleware to let it know where to find the favicon icon
