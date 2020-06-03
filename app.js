@@ -28,11 +28,7 @@ console.log('justo-changes...')
 app.set('views', path.join(__dirname, 'views'));
 //app.set('view engine', 'hbs');
 console.log('otro console javier')
-<<<<<<< HEAD
-console.log('probando merges')
-=======
 console.log('console log justo..')
->>>>>>> origin/justo-changes
 console.log('segundo console nuevo merge')
 app.use(express.static(path.join(__dirname, 'public')));
 
