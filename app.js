@@ -24,7 +24,7 @@ const app = express();
 console.log('justo-changes...')
 // Express View engine setup
 
-app.set('views', path.join(__dirname, 'views'));
+app.set('views', path.join(__dirname, 'views')); //test de merge
 app.set('view engine', 'hbs');
 app.use(express.static(path.join(__dirname, 'public')));
 
